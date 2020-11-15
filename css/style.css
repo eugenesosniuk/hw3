@@ -1,0 +1,157 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+
+body {
+    background-color: #f9f9f9;
+}
+a{
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+p{
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+}
+.wraper{
+    max-width: 1060px;
+    margin: 0px auto;
+    background-color:  white;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.5); 
+    padding-bottom: 60px;
+}
+
+
+header {
+    height: 130px;
+    width: 960px;
+    margin: 0 auto;
+}
+header img{
+    margin: 50px 0 40px 0;
+}
+
+.conteiner {
+    overflow: auto;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    width: 960px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+
+.left-menu {
+    float: left;
+    width: 240px;
+    border: 1px solid #c8c8c8;
+}
+.right-fild {
+    float: right;
+    width: 678px;
+}
+.left-menu ul {
+    margin: 0px;
+    padding: 0px;
+}
+.left-menu ul li {
+    text-decoration: none;
+    list-style-type: none;
+    text-align: left;
+    border-bottom: 1px solid #c8c8c8;
+}
+.left-menu li:last-child {
+    border-bottom:none;    
+}
+.left-menu a{
+    padding-left: 24px;
+    display: block;
+    color: #656363;
+    line-height: 40px;
+    text-decoration: none;
+    list-style-type: none;
+}
+.left-menu a:hover{
+    padding-left: 36px;    
+    color: #4b3c3c;
+    background-color:#f9f9f9;
+}
+
+
+nav {
+    height: 40px;
+    width: 960px;
+    margin: 0 auto;
+    background: linear-gradient(to top, #444343, #5e5e5e );
+    text-shadow: 0 0 4px rgba(0,0,0,0.9); 
+}
+nav ul{
+    padding: 0;
+}
+nav li {
+    float: left;
+    width: 140px;
+    list-style-type: none;
+    text-align: center;
+}
+nav a{
+    display: block;
+    color: white;
+    line-height: 40px;
+    text-decoration: none;
+}    
+nav li a:hover{
+    background: linear-gradient(to top, #2e2e2e, #4a4a4a );
+}
+
+
+
+
+
+
+
+
+.image {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border: 1px solid #c8c8c8;
+}
+.text p{
+    text-align:left;
+    line-height: 1.5;
+    padding: 40px 24px 42px 24px;
+}
+
+
+
+
+footer {
+    height: 40px;
+    width: 960px;
+    margin: 0 auto;
+    background: #e2e2e2;
+}
+footer ul{
+    padding: 0;
+}
+footer li {
+    float: left;
+    width: 140px;
+    list-style-type: none;
+    text-align: center;
+}
+footer a{
+    display: block;
+    color: #2c2c2c;
+    line-height: 40px;
+    text-decoration: none;
+}    
+footer li a:hover{
+    background: #e1e1e1fb;
+    text-decoration: underline;
+}
+footer p{
+    float: right;
+    padding-right: 25px;
+}
